@@ -1,0 +1,64 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navbar {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #6aaf6a;
+}
+
+.batmanbgimg {
+    background-image: url('Batman.jpg');
+    height: 650px;
+    color: white;
+}
+
+.dotabgimg {
+    background-image: url('anti-mage.jpg');
+    height: 700px;
+    color: white;
+}
+
+.dotabgimg2 {
+    background-image: url('invoker.jpg');
+    height: 700px;
+    color: white;
+}
+
+.dotabgimg3 {
+    background-image: url('dota.jpg');
+    height: 700px;
+    color: white;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.img:hover {
+    border: 5px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
